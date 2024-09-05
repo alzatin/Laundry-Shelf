@@ -1070,11 +1070,11 @@
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 1803
+                    "ioValue": 5000
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 1219
+                    "ioValue": 5000
                 },
                 {
                     "name": "Part Padding",
