@@ -1078,7 +1078,7 @@
                 },
                 {
                     "name": "Part Padding",
-                    "ioValue": 150
+                    "ioValue": 100
                 },
                 {
                     "name": "Sheet Padding",
