@@ -1070,7 +1070,7 @@
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 5000
+                    "ioValue": 8000
                 },
                 {
                     "name": "Sheet Height",
