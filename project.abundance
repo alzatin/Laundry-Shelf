@@ -1074,7 +1074,7 @@
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 5000
+                    "ioValue": 8000
                 },
                 {
                     "name": "Part Padding",
