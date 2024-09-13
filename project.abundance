@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Wood Thickness",
-            "ioValue": 17
+            "ioValue": 11
         }
     ],
     "topLevel": true,
@@ -34,7 +34,7 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 17
+                    "ioValue": 11
                 }
             ],
             "topLevel": false,
@@ -90,7 +90,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 17
+                            "ioValue": 11
                         }
                     ]
                 },
@@ -163,7 +163,7 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 17
+                    "ioValue": 11
                 }
             ],
             "topLevel": false,
@@ -202,7 +202,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 17
+                            "ioValue": 11
                         }
                     ]
                 },
@@ -478,7 +478,7 @@
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 17
+                            "ioValue": 11
                         }
                     ],
                     "topLevel": false,
@@ -630,7 +630,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 17
+                                    "ioValue": 11
                                 }
                             ]
                         },
@@ -1066,7 +1066,7 @@
                 },
                 {
                     "name": "Material Thickness",
-                    "ioValue": 17
+                    "ioValue": 11
                 },
                 {
                     "name": "Sheet Width",
@@ -1095,7 +1095,7 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 17
+                    "ioValue": 11
                 }
             ],
             "topLevel": false,
@@ -1155,7 +1155,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 17
+                            "ioValue": 11
                         },
                         {
                             "name": "y length",
@@ -1176,7 +1176,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 8.5
+                            "ioValue": 5.5
                         },
                         {
                             "name": "yDist",
@@ -1197,7 +1197,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 17
+                            "ioValue": 11
                         }
                     ],
                     "currentEquation": "W/2"
@@ -1372,7 +1372,7 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 17
+                    "ioValue": 11
                 }
             ],
             "topLevel": false,
@@ -1411,7 +1411,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 17
+                            "ioValue": 11
                         }
                     ]
                 },
@@ -1441,7 +1441,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 17
+                            "ioValue": 11
                         }
                     ],
                     "currentEquation": "-W/2"
@@ -1463,7 +1463,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -8.5
+                            "ioValue": -5.5
                         },
                         {
                             "name": "zDist",
@@ -1672,7 +1672,7 @@
                 },
                 {
                     "name": "Resolution (dpi)",
-                    "ioValue": 72
+                    "ioValue": 96
                 },
                 {
                     "name": "Part Name",
