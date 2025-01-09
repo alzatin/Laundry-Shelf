@@ -10,6 +10,7 @@
             "ioValue": 11
         }
     ],
+    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
         {
@@ -23,7 +24,8 @@
                     "name": "number or geometry",
                     "ioValue": 1724647347644
                 }
-            ]
+            ],
+            "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Molecule",
@@ -37,6 +39,7 @@
                     "ioValue": 11
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -50,7 +53,8 @@
                             "name": "number or geometry",
                             "ioValue": 1724646419308
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Rectangle",
@@ -67,15 +71,17 @@
                             "name": "y length",
                             "ioValue": 812.8
                         }
-                    ]
+                    ],
+                    "description": "Creates a new rectangle."
                 },
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.49860724233983283,
                     "uniqueID": 1724644720937,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Extrude",
@@ -92,7 +98,8 @@
                             "name": "height",
                             "ioValue": 11
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Tag",
@@ -106,6 +113,7 @@
                             "ioValue": 1724644807419
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "",
                         "cutLayout"
@@ -149,10 +157,11 @@
         {
             "atomType": "Input",
             "name": "Wood Thickness",
-            "x": 0.013333333333333334,
+            "x": 0.04,
             "y": 0.6044568245125348,
             "uniqueID": 1724644791354,
-            "ioValues": []
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         },
         {
             "atomType": "Molecule",
@@ -166,6 +175,7 @@
                     "ioValue": 11
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -179,15 +189,17 @@
                             "name": "number or geometry",
                             "ioValue": 1724645962613
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.6044568245125348,
                     "uniqueID": 1724644914780,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Rectangle",
@@ -204,7 +216,8 @@
                             "name": "y length",
                             "ioValue": 11
                         }
-                    ]
+                    ],
+                    "description": "Creates a new rectangle."
                 },
                 {
                     "atomType": "Extrude",
@@ -221,7 +234,8 @@
                             "name": "height",
                             "ioValue": -100
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Circle",
@@ -234,7 +248,8 @@
                             "name": "diameter",
                             "ioValue": 40
                         }
-                    ]
+                    ],
+                    "description": "Creates a new circle."
                 },
                 {
                     "atomType": "Move",
@@ -259,7 +274,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -284,7 +300,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "ShrinkWrap",
@@ -333,7 +350,8 @@
                             "name": "3D shape 5",
                             "ioValue": ""
                         }
-                    ]
+                    ],
+                    "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
                 },
                 {
                     "atomType": "Move",
@@ -358,7 +376,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -383,7 +402,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Extrude",
@@ -400,7 +420,8 @@
                             "name": "height",
                             "ioValue": 100
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Rotate",
@@ -425,7 +446,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Move",
@@ -450,7 +472,8 @@
                             "name": "zDist",
                             "ioValue": -65
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Difference",
@@ -467,7 +490,8 @@
                             "name": "geometry1",
                             "ioValue": 1724645036531
                         }
-                    ]
+                    ],
+                    "description": "Subtracts shape two from shape one."
                 },
                 {
                     "atomType": "Molecule",
@@ -481,6 +505,7 @@
                             "ioValue": 11
                         }
                     ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -494,15 +519,17 @@
                                     "name": "number or geometry",
                                     "ioValue": 1724646053391
                                 }
-                            ]
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Input",
                             "name": "Wood Thickness",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.9610027855153204,
                             "uniqueID": 1724645740100,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Circle",
@@ -515,7 +542,8 @@
                                     "name": "diameter",
                                     "ioValue": 60
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Rectangle",
@@ -532,7 +560,8 @@
                                     "name": "y length",
                                     "ioValue": 60
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new rectangle."
                         },
                         {
                             "atomType": "Move",
@@ -557,7 +586,8 @@
                                     "name": "zDist",
                                     "ioValue": 0
                                 }
-                            ]
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
                             "atomType": "Move",
@@ -582,7 +612,8 @@
                                     "name": "zDist",
                                     "ioValue": 0
                                 }
-                            ]
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
                             "atomType": "ShrinkWrap",
@@ -615,7 +646,8 @@
                                     "name": "3D shape 3",
                                     "ioValue": ""
                                 }
-                            ]
+                            ],
+                            "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
                         },
                         {
                             "atomType": "Extrude",
@@ -632,7 +664,8 @@
                                     "name": "height",
                                     "ioValue": 11
                                 }
-                            ]
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
                         },
                         {
                             "atomType": "Rotate",
@@ -657,7 +690,8 @@
                                     "name": "z-axis degrees",
                                     "ioValue": 0
                                 }
-                            ]
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                         },
                         {
                             "atomType": "Tag",
@@ -671,6 +705,7 @@
                                     "ioValue": 1724645931881
                                 }
                             ],
+                            "description": "Tags geometry so that it can be extracted later.",
                             "tags": [
                                 "cutLayout",
                                 ""
@@ -766,6 +801,7 @@
                             "ioValue": 1724646012172
                         }
                     ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Assembly"
                 },
                 {
@@ -780,6 +816,7 @@
                             "ioValue": 1724645607701
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "cutLayout",
                         ""
@@ -809,7 +846,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Rotate",
@@ -834,7 +872,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 180
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 }
             ],
             "allConnectors": [
@@ -1026,7 +1065,8 @@
                     "name": "zDist",
                     "ioValue": 0
                 }
-            ]
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         },
         {
             "atomType": "Move",
@@ -1051,7 +1091,8 @@
                     "name": "zDist",
                     "ioValue": 0
                 }
-            ]
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         },
         {
             "atomType": "CutLayout",
@@ -1079,12 +1120,10 @@
                 {
                     "name": "Part Padding",
                     "ioValue": 300
-                },
-                {
-                    "name": "Sheet Padding",
-                    "ioValue": 1
                 }
-            ]
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         },
         {
             "atomType": "Molecule",
@@ -1098,6 +1137,7 @@
                     "ioValue": 11
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -1111,15 +1151,17 @@
                             "name": "number or geometry",
                             "ioValue": 1724646844346
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.6044568245125348,
                     "uniqueID": 1724646572093,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Move",
@@ -1144,7 +1186,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Rectangle",
@@ -1161,7 +1204,8 @@
                             "name": "y length",
                             "ioValue": 812.8
                         }
-                    ]
+                    ],
+                    "description": "Creates a new rectangle."
                 },
                 {
                     "atomType": "Move",
@@ -1186,7 +1230,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
@@ -1200,6 +1245,7 @@
                             "ioValue": 11
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "W/2"
                 },
                 {
@@ -1217,7 +1263,8 @@
                             "name": "height",
                             "ioValue": -35
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Tag",
@@ -1231,6 +1278,7 @@
                             "ioValue": 1724646781629
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "cutLayout",
                         ""
@@ -1260,7 +1308,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 180
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Join",
@@ -1278,6 +1327,7 @@
                             "ioValue": 1724646816406
                         }
                     ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Assembly"
                 }
             ],
@@ -1375,6 +1425,7 @@
                     "ioValue": 11
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -1388,15 +1439,17 @@
                             "name": "number or geometry",
                             "ioValue": 1724647224320
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.6044568245125348,
                     "uniqueID": 1724646993953,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Rectangle",
@@ -1413,7 +1466,8 @@
                             "name": "y length",
                             "ioValue": 11
                         }
-                    ]
+                    ],
+                    "description": "Creates a new rectangle."
                 },
                 {
                     "atomType": "Extrude",
@@ -1430,7 +1484,8 @@
                             "name": "height",
                             "ioValue": -35
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Equation",
@@ -1444,6 +1499,7 @@
                             "ioValue": 11
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "-W/2"
                 },
                 {
@@ -1469,7 +1525,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -1494,7 +1551,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Tag",
@@ -1508,6 +1566,7 @@
                             "ioValue": 1724647205778
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "",
                         "cutLayout"
@@ -1604,6 +1663,7 @@
                     "ioValue": 1724644623215
                 }
             ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
             "unionType": "Assembly"
         },
         {
@@ -1629,7 +1689,8 @@
                     "name": "zDist",
                     "ioValue": 0
                 }
-            ]
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         },
         {
             "atomType": "Join",
@@ -1647,6 +1708,7 @@
                     "ioValue": 1724647347644
                 }
             ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
             "unionType": "Assembly"
         },
         {
@@ -1656,6 +1718,7 @@
             "y": 0.2514450867052023,
             "uniqueID": 1725398309267,
             "ioValues": [],
+            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
             "readmeText": "Readme text here",
             "global": true
         },
@@ -1683,6 +1746,7 @@
                     "ioValue": "SVG"
                 }
             ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
             "type": null,
             "resolution": 72,
             "importIndex": 0,
