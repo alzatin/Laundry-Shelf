@@ -1071,8 +1071,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.3421300659754948,
-            "y": 0.6515151515151515,
+            "x": 0.423242982228597,
+            "y": 0.597778254964367,
             "uniqueID": 1724645097526,
             "ioValues": [
                 {
@@ -1719,8 +1719,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.5117813383600377,
-            "y": 0.3151515151515152,
+            "x": 0.4833333333333333,
+            "y": 0.4882226980728051,
             "uniqueID": 1724647347644,
             "ioValues": [
                 {
@@ -1751,8 +1751,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7276154571159283,
-            "y": 0.7606060606060606,
+            "x": 0.7520833333333333,
+            "y": 0.14775160599571735,
             "uniqueID": 1724648591170,
             "ioValues": [
                 {
@@ -1777,8 +1777,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.8584656084656084,
-            "y": 0.7019498607242339,
+            "x": 0.55625,
+            "y": 0.3404710920770878,
             "uniqueID": 1724648611791,
             "ioValues": [
                 {
@@ -1791,7 +1791,8 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-            "unionType": "Assembly"
+            "unionType": "Assembly",
+            "unionIndex": 0
         },
         {
             "atomType": "Readme",
