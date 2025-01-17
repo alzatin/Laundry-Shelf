@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Wood Thickness",
-            "ioValue": 11
+            "ioValue": 18
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -36,7 +36,7 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 11
+                    "ioValue": 18
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -96,7 +96,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 11
+                            "ioValue": 18
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -166,13 +166,13 @@
         {
             "atomType": "Molecule",
             "name": "Cross Brace",
-            "x": 0.22023809523809526,
-            "y": 0.5664739884393063,
+            "x": 0.21112158341187556,
+            "y": 0.5393939393939393,
             "uniqueID": 1724644914121,
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 11
+                    "ioValue": 18
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -214,7 +214,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 11
+                            "ioValue": 18
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -502,7 +502,7 @@
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 11
+                            "ioValue": 18
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -662,7 +662,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 11
+                                    "ioValue": 18
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1045,8 +1045,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.34325396825396826,
-            "y": 0.4428969359331476,
+            "x": 0.34307257304429783,
+            "y": 0.3787878787878788,
             "uniqueID": 1724645091219,
             "ioValues": [
                 {
@@ -1071,8 +1071,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.34270833333333334,
-            "y": 0.6329411764705882,
+            "x": 0.3421300659754948,
+            "y": 0.6515151515151515,
             "uniqueID": 1724645097526,
             "ioValues": [
                 {
@@ -1097,8 +1097,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.5385416666666667,
-            "y": 0.7576470588235295,
+            "x": 0.5852968897266729,
+            "y": 0.6696969696969697,
             "uniqueID": 1724646329757,
             "ioValues": [
                 {
@@ -1107,7 +1107,7 @@
                 },
                 {
                     "name": "Material Thickness",
-                    "ioValue": 11
+                    "ioValue": 18
                 },
                 {
                     "name": "Sheet Width",
@@ -1123,18 +1123,99 @@
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": []
+            "placements": [
+                {
+                    "translate": {
+                        "x": 1035.9249877929688,
+                        "y": 556.5
+                    },
+                    "id": 9,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 1035.925048846875,
+                        "y": 1522.6000213591797
+                    },
+                    "id": 8,
+                    "rotate": 180
+                },
+                {
+                    "translate": {
+                        "x": 1016.9199828882813,
+                        "y": 1310.900033944336
+                    },
+                    "id": 0,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 1035.925048853125,
+                        "y": 2139.000009482031
+                    },
+                    "id": 5,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": -735.7200317117188,
+                        "y": 2518.7000140820314
+                    },
+                    "id": 1,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 605.3000488179688,
+                        "y": 3319.5200595367187
+                    },
+                    "id": 2,
+                    "rotate": 90
+                },
+                {
+                    "translate": {
+                        "x": 90.17547602343757,
+                        "y": 2456.8034610408204
+                    },
+                    "id": 6,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 1281.7958174179687,
+                        "y": 1512.1278476234374
+                    },
+                    "id": 3,
+                    "rotate": 90
+                },
+                {
+                    "translate": {
+                        "x": 873.0260420632812,
+                        "y": 2722.4886111591795
+                    },
+                    "id": 7,
+                    "rotate": 180
+                },
+                {
+                    "translate": {
+                        "x": -425.84693843671874,
+                        "y": 2613.900033917969
+                    },
+                    "id": 4,
+                    "rotate": 180
+                }
+            ]
         },
         {
             "atomType": "Molecule",
             "name": "Side Brace",
-            "x": 0.3611111111111111,
-            "y": 0.233983286908078,
+            "x": 0.3609802073515551,
+            "y": 0.15454545454545454,
             "uniqueID": 1724646572265,
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 11
+                    "ioValue": 18
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1198,7 +1279,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 11
+                            "ioValue": 18
                         },
                         {
                             "name": "y length",
@@ -1220,7 +1301,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 5.5
+                            "ioValue": 9
                         },
                         {
                             "name": "yDist",
@@ -1242,7 +1323,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 11
+                            "ioValue": 18
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1416,13 +1497,13 @@
         {
             "atomType": "Molecule",
             "name": "Back Brace",
-            "x": 0.27711640211640215,
-            "y": 0.1309192200557103,
+            "x": 0.24033930254476907,
+            "y": 0.2787878787878788,
             "uniqueID": 1724646994017,
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 11
+                    "ioValue": 18
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1464,7 +1545,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 11
+                            "ioValue": 18
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1496,7 +1577,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 11
+                            "ioValue": 18
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1519,7 +1600,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -5.5
+                            "ioValue": -9
                         },
                         {
                             "name": "zDist",
@@ -1638,8 +1719,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.5079365079365079,
-            "y": 0.33147632311977715,
+            "x": 0.5117813383600377,
+            "y": 0.3151515151515152,
             "uniqueID": 1724647347644,
             "ioValues": [
                 {
@@ -1664,13 +1745,14 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-            "unionType": "Assembly"
+            "unionType": "Assembly",
+            "unionIndex": 0
         },
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7665343915343916,
-            "y": 0.8063583815028902,
+            "x": 0.7276154571159283,
+            "y": 0.7606060606060606,
             "uniqueID": 1724648591170,
             "ioValues": [
                 {
@@ -1714,8 +1796,8 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.11243386243386243,
-            "y": 0.2514450867052023,
+            "x": 0.08859566446748351,
+            "y": 0.3666666666666667,
             "uniqueID": 1725398309267,
             "ioValues": [],
             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
@@ -1725,8 +1807,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7604166666666667,
-            "y": 0.28941176470588237,
+            "x": 0.818096135721018,
+            "y": 0.2545454545454546,
             "uniqueID": 1725553615650,
             "ioValues": [
                 {
