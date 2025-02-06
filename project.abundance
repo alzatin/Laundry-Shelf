@@ -782,7 +782,7 @@
                     "compiledBom": []
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.7850529100529101,
                     "y": 0.403899721448468,
@@ -1071,8 +1071,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.423242982228597,
-            "y": 0.597778254964367,
+            "x": 0.34978354978354975,
+            "y": 0.6363636363636364,
             "uniqueID": 1724645097526,
             "ioValues": [
                 {
@@ -1393,7 +1393,7 @@
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.7361111111111112,
                     "y": 0.3565459610027855,
@@ -1717,7 +1717,7 @@
             "compiledBom": []
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.4833333333333333,
             "y": 0.4882226980728051,
@@ -1775,10 +1775,10 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.55625,
-            "y": 0.3404710920770878,
+            "x": 0.5783549783549784,
+            "y": 0.2787878787878788,
             "uniqueID": 1724648611791,
             "ioValues": [
                 {
